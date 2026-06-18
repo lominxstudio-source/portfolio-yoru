@@ -91,8 +91,10 @@
 
 .hero-about {
     position: absolute;
-    left: 17vw;
-    top: 22vh;
+    /* left: 17vw;
+    top: 22vh; */
+    left: 8vw;
+    top: 18vh;
     width: min(420px, 48vw);
     opacity: 0;
     transform: translateY(36px);
@@ -214,7 +216,7 @@
 
 .design-section {
     min-height: 100vh;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .design-section__title {
@@ -273,13 +275,20 @@
     text-orientation: mixed;
     justify-self: center;
     align-self: start;
-    padding-right: 18px;
+    /* padding-right: 18px; */
+    padding-right: 6px;
     border-right: 1px dotted currentColor;
     font-size: 18px;
     line-height: 1.65;
     letter-spacing: .12em;
     color: #555b63;
-    min-height: 110px;
+    /* min-height: 110px; */
+    min-height: 105px;
+}
+
+.info-card__tags .hash {
+    writing-mode: horizontal-tb;
+    display: inline-block;
 }
 
 .info-card__body {
@@ -716,7 +725,8 @@ body.is-modal-open {
         grid-template-columns: 48% 52%;
     }
     .hero-about {
-        left: 10vw;
+        /* left: 10vw; */
+        left: 3vw;
         width: min(420px, 66vw);
     }
     .web-work {
@@ -828,7 +838,7 @@ body.is-modal-open {
     }
     .info-card__tags {
         font-size: 16px;
-        padding-right: 14px;
+        /* padding-right: 14px; */
     }
     .info-card__image,
     .info-card__link {
@@ -895,7 +905,7 @@ body.is-modal-open {
     }
     .info-card__tags {
         font-size: 15px;
-        padding-right: 12px;
+        /* padding-right: 12px; */
         min-height: 96px;
     }
     .info-card__image,
