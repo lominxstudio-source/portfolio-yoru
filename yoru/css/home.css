@@ -216,7 +216,7 @@
 
 .design-section {
     min-height: 100vh;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .design-section__title {
@@ -503,6 +503,8 @@
     justify-self: end;
     font-size: 14px;
     margin-bottom: 34px;
+    color: #5f656d;
+    ;
 }
 
 .web-work__location::before {
